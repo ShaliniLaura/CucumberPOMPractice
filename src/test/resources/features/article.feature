@@ -9,7 +9,7 @@ Scenario: Add an new article
 Given User is on New Article page
 When User adds details for Article
 | ArticleTitle | ArticleAbout | ArticleDetail |
-| Case Study- SS2  | Selenium     | Cucumber and POM |
+| Case Study- Sha  | Selenium     | Cucumber and POM |
 #datatable
 Then New Article should be added
 

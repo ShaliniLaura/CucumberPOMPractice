@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue= {"stepDefs"},
 		dryRun=false,
 		monochrome=true,
-		plugin= {"pretty", "html:target/reports/HtmlReport.hrml"}
+		plugin= {"pretty", "html:target/reports/HtmlReport.html"}
 		)
 public class ArticleRunner extends AbstractTestNGCucumberTests{
 
